@@ -35,7 +35,7 @@ const NavbarHeader = () => {
                                         <Link className="nav-link" to="/blogs">Blogs</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/resume">CV</Link>
+                                        <Link className="nav-link" to="/about">About Me</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link style={{ color: 'orange' }} className="nav-link" to="/contact">Contact Me</Link>

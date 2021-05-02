@@ -8,7 +8,8 @@ import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Blogs from './components/Blogs/Blogs';
 import NavbarHeader from './components/Navbar/Navbar';
-import Resume from './components/Resume/Resume';
+
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -20,18 +21,14 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
-
-            <Route path="/about">
-
-            </Route>
             <Route path="/contact">
               <Contact />
             </Route>
             <Route path="/blogs">
               <Blogs />
             </Route>
-            <Route path="/resume">
-              <Resume />
+            <Route path="/about">
+              <AboutMe />
             </Route>
             <Route path="/">
               <Home />

@@ -31,7 +31,7 @@ const HomeDetail = () => {
                 <div className="row">
                     <div className="col d-flex">
                         <div className="buttons d-flex">
-                            <Button className="btn btn-success mr-5"><Link to="/resume">Get Resume</Link></Button>
+                            <button className="btn btn-success mr-5"><a href="https://drive.google.com/file/d/1Pu5vLsYi1AHyHDpySZBR3WiVIFqv2kIn/view?usp=sharing">Download Resume</a></button>
                             <Button className="btn btn-success ml-5"><Link to="/projects">See My Work</Link></Button>
                         </div>
                     </div>
