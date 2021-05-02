@@ -1,4 +1,8 @@
 .cotact-form-holder{
     background-color: lightsalmon;
     border-radius:9px;
+    height:400px ;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
 }

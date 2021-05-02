@@ -6,7 +6,7 @@ import { faFacebook, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-i
 const SocialConnection = () => {
     return (
         <section className="container social-main">
-            <div className="row d-flex align-items-center mt-3">
+            <div className="row d-flex align-items-center">
                 <h3 className="text-center m-auto">Connect Me On</h3>
                 <div className="col-12 d-flex align-items-center justify-content-center social-icons">
                     <div className="col-4 micon">
