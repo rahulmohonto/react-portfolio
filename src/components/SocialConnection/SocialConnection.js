@@ -7,7 +7,7 @@ const SocialConnection = () => {
     return (
         <section className="container social-main">
             <div className="row d-flex align-items-center">
-                <h3 className="text-center">Connect Me On</h3>
+                <h3 className="text-center m-auto">Connect Me On</h3>
                 <div className="col-12 d-flex align-items-center justify-content-center social-icons">
                     <div className="col-4 micon">
                         <a className="link" href="https://web.facebook.com/rahul.mohonto.9/?viewas=100000686899395"> <FontAwesomeIcon className="facebook" icon={faFacebook} /></a>
