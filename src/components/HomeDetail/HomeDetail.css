@@ -1,0 +1,108 @@
+.my-imageContainer{
+    height:700px;
+   
+    box-sizing: border-box;
+   
+}
+.front-image-holder{
+    box-sizing: border-box;
+    
+}
+.front-image{
+    background-image: url(../../images/main-background.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+   
+}
+.name-personal-image{
+   width: 90%;
+}
+.myImage{
+    box-sizing: border-box;
+    margin-left: 58%;
+    /* z-index: 1; */
+    box-sizing: border-box;
+    border:1px solid ghostwhite;
+    border-radius: 50%;
+    width:80%;
+    width:500px;
+    height:200px;
+   
+}
+@media (max-width: 576px){
+    .myImage{
+        margin-left:0;
+        width:280px;
+        margin-top: 120px;
+    }
+    .name-title-holder{
+        padding-top: 80px;
+        margin-top:120px;
+    }
+    .intro-text{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 768px){
+    .name-title-holder{
+        padding-top: 80px;
+        margin-top:100px;
+        
+    }
+    .myImage{
+        margin-left:0;
+        width:200px;
+        height:300px;
+    }
+    .intro-text{
+        margin-top: 80px;
+    }
+}
+ @media (max-width: 992px){
+     .name-title-holder{
+         margin-top: 120px; 
+    } 
+    .myImage{
+        margin-left:0;
+    }
+} 
+.intro-text{
+    font-family: Roboto;
+    color:goldenrod;
+    font-size:1.19rem
+}
+.buttons{
+   /* margin-left: 35%; */
+   color:mediumblue;
+}
+ 
+.buttons Button Link{
+    text-decoration:none;
+}
+@media (max-width:576px),(max-width:768px){
+    .buttons{
+       text-align:center;
+       padding-left:50px;
+    }
+}
+@media (max-width:592px){
+    .myImage:hover{
+        transform: scale(1.3);
+         transition: transform .85s ease-in-out;
+     }
+}
+.name-title-holder h2:hover{
+    transform: scale(1.3);
+     transition: transform .85s ease-in-out;
+ }
+ .name-title-holder h5:hover{
+    transform: scale(1.3);
+     transition: transform .85s ease-in-out;
+ }
+ /* .myImage-container{
+height:400px;
+width:800px
+ } */
