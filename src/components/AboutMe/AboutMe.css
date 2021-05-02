@@ -1,0 +1,33 @@
+.about{
+    box-sizing: border-box;
+    background-color: #dd8181;
+    margin-top: 20px;
+    padding:30px;
+    border-radius: 20px;
+}
+.main{
+    box-sizing: border-box;
+}
+.about-image-holder{
+   height:300px;
+   width:200px;
+   margin-top: 40px;
+   box-sizing: border-box;
+}
+.about-image-holder img{
+    height:300px;
+    width:100%;
+}
+@media(max-width:568px){
+    .about-image-holder img{
+        margin-top: 40px;
+        height:180px;
+        width:100%;
+        transform: scale(1.4);
+    }
+}
+.log{
+    height: 56px;
+    width:56px;
+    border-radius: 15px;
+}

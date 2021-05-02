@@ -1,0 +1,55 @@
+
+    @media(max-width:592px){
+        .social-main{
+            margin-top:180px;
+        }
+    }
+    .social-icons{
+       background-image: url(../../images/connect.jpg);
+       border-radius: 19px;
+       background-position: center;
+       background-repeat: no-repeat;
+       box-sizing: border-box;
+    }
+    .micon{
+        width:60px;
+        height:120px;
+        box-sizing: border-box;
+       margin: auto;
+       padding: 24px;
+    }
+.micon .facebook{
+        width:100%;
+        height:80px;
+       margin-left: auto;
+        box-sizing: border-box;
+    }
+    .micon .github{
+        width:100%;
+        height:80px;
+    }
+    .micon .linkedIn{
+        width:100%;
+        height:80px;
+      margin-right: auto;
+      box-sizing: border-box;
+       
+    }
+    .maicon .link{
+        text-decoration: none;
+    }
+    @media(max-width:992px) ,(max-width:768px),(max-width:576px),(max-width:1280px){
+        .micon .facebook{
+            /* width:100%;
+            height:80px; */
+            margin-left:0;
+            margin-right: 0;
+        }
+    }
+    @media(max-width:992px),(max-width:768px),(max-width:576px){
+        .micon .linkedIn{
+            /* width:100%;
+            height:80px; */
+            margin-right:0;
+        }
+    }
