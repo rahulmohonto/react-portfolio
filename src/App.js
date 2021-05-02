@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
@@ -16,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          {/* <NavbarHeader /> */}
+          <NavbarHeader />
           <Switch>
             <Route path="/home">
               <Home />

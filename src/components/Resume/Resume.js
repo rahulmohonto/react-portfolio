@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Resume.css';
 // import Button from 'react-bootstrap/Button';
 
