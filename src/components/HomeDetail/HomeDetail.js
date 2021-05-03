@@ -1,13 +1,13 @@
 import React from 'react';
 import './HomeDetail.css';
-import image from '../../images/pe.jpg';
+import image from '../../images/Group 33085.png';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 
 const HomeDetail = () => {
     return (
-        <section className="container my-imageContainer">
+        <section className="container my-imageContainer mb-5">
             <div className="row d-flex align-items-center front-image-holder">
                 <div className="front-image">
                     <div className="col-md-6 d-flex align-items-center name-personal-image">

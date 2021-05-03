@@ -1,6 +1,6 @@
 .about{
     box-sizing: border-box;
-    background-color: #dd8181;
+    background-color: #d6b7b7;
     margin-top: 20px;
     padding:30px;
     border-radius: 20px;
@@ -13,10 +13,12 @@
    width:200px;
    margin-top: 40px;
    box-sizing: border-box;
+   border-radius: 18px;
 }
 .about-image-holder img{
     height:300px;
     width:100%;
+  
 }
 @media(max-width:568px){
     .about-image-holder img{

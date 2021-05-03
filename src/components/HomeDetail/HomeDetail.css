@@ -8,7 +8,7 @@
     
 }
 .front-image{
-    background-image: url(../../images/main-background.png);
+    background-image: url(../../images/wp6784383.jpg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -22,11 +22,11 @@
 }
 .myImage{
     box-sizing: border-box;
-    margin-left: 58%;
+    margin-left: 54%;
     /* z-index: 1; */
     box-sizing: border-box;
-    border:1px solid ghostwhite;
-    border-radius: 50%;
+    /* border:1px solid ghostwhite; */
+    /* border-radius: 50%; */
     width:80%;
     width:500px;
     height:200px;
@@ -111,3 +111,6 @@
 height:400px;
 width:800px
  } */
+ .name-title-holder:hover{
+    box-shadow: 0 1px 3px rgb(0 0 0 / 42%), 0 1px 2px rgb(0 0 0 / 44%);
+ }

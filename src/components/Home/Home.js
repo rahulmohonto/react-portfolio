@@ -1,8 +1,7 @@
 import React from 'react';
-
 import HomeDetail from '../HomeDetail/HomeDetail';
 // import NavbarHeader from '../Navbar/Navbar';
-import SocialConnection from '../SocialConnection/SocialConnection';
+// import SocialConnection from '../SocialConnection/SocialConnection';
 
 
 const Home = () => {
@@ -11,7 +10,8 @@ const Home = () => {
 
             {/* <NavbarHeader /> */}
             <HomeDetail />
-            <SocialConnection />
+            {/* <SocialConnection /> */}
+            {/* <Animate /> */}
         </div>
     );
 };

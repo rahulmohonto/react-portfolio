@@ -5,3 +5,7 @@
 /* .navbar-section{
     height:220px;
 } */
+.navbar-holder:hover{
+    box-shadow: 0 1px 3px rgb(0 0 0 / 32%), 0 1px 2px rgb(0 0 0 / 24%);
+    transition: all .5s cubic-bezier(.15,.58,.35,12);
+}

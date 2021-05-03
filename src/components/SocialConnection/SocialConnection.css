@@ -53,3 +53,21 @@
             margin-right:0;
         }
     }
+    .facebook, .github, .linkedIn {
+        transition: transform 0.5s linear;
+      }
+       .facebook:hover {
+        transform: translateX(15px);
+        transform: translateY(20px);
+        transform: translate(15px, -10px);
+      }
+      .github:hover {
+        transform: translateX(15px);
+        transform: translateY(20px);
+        transform: translate(15px, -10px);
+      }
+      .linkedIn:hover {
+        transform: translateX(15px);
+        transform: translateY(20px);
+        transform: translate(15px, -10px);
+      }

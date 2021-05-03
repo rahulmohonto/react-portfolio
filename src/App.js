@@ -10,6 +10,9 @@ import Blogs from './components/Blogs/Blogs';
 import NavbarHeader from './components/Navbar/Navbar';
 
 import AboutMe from './components/AboutMe/AboutMe';
+import SocialConnection from './components/SocialConnection/SocialConnection';
+import Projects from './components/Projects/Projects';
+import ProjectsDetails from './components/ProjectDetails/ProjectsDetails';
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
       <Router>
         <div>
           <NavbarHeader />
+
           <Switch>
             <Route path="/home">
               <Home />
@@ -30,12 +34,19 @@ function App() {
             <Route path="/about">
               <AboutMe />
             </Route>
+            <Route path="/projects">
+              <Projects />
+              <Route path="/details/:id">
+                <ProjectsDetails></ProjectsDetails>
+              </Route>
+            </Route>
             <Route path="/">
               <Home />
             </Route>
 
           </Switch>
         </div>
+        <SocialConnection />
       </Router>
 
     </div>

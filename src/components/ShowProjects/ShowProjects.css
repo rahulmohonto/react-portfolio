@@ -1,0 +1,75 @@
+
+.card-div{
+   margin-left:auto;
+    margin-right:auto;
+     box-sizing: border-box;
+     /* text-align: center;
+     padding: 36px 12px;
+     border-top: 1px solid #c1c1c1; */
+ }
+ @media (max-width:768px),(max-width:576px),(max-width:992px){
+     .card-div{
+         /* display:grid;
+         grid-template-columns: auto auto; */
+         /* grid-gap:400px;  */
+         /* grid-row-gap: 400px; */
+         box-sizing: border-box;
+         margin-left:auto;
+         margin-right:auto; 
+          display:flex;
+         flex-flow: wrap column;
+         
+     }
+ }
+ .card-holder{
+     color:cornflowerblue;
+    box-sizing: border-box;
+    line-height: 1.1em;
+    height: 3.3em;
+    /* overflow-y:scroll;
+    display: none;
+    text-overflow: ellipsis;
+    */
+    text-overflow: ellipsis;
+    
+    transition: all .5s cubic-bezier(.25,.98,.55,22);
+    cursor: pointer;
+    /* font-family: 'wf_segoe-ui_semibold','Segoe UI Semibold','Segoe UI','Segoe WP','Segoe UI','Segoe WP',Tahoma,Arial,sans-serif; */
+ }
+ .card-holder:hover{
+    box-shadow: 0 1px 3px rgb(0 0 0 / 42%), 0 1px 2px rgb(0 0 0 / 44%);
+ }
+ .cardImage{
+     width:100%;
+     border-radius: 10px;
+  box-sizing: border-box;
+     margin-right: 10px;
+     padding:5px;
+     
+ }
+ .button{
+     background-color:rgb(83, 77, 119);
+     opacity: .8;
+     width:6rem;
+     padding:4px 0;
+     border-radius:4px;
+     text-align: center;
+     color:rgb(53, 5, 5);
+     font-size:1.1rem;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+ .icon-style{
+     width:50%;
+     height:20px;
+ }
+ .card-container{
+     display:grid;
+     grid-template-columns: 500px 500px 500px;
+ }
+ 
+ 
+   
+ 
+ 
+ 
