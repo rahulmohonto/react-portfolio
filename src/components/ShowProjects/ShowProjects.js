@@ -6,7 +6,7 @@ import './ShowProjects.css';
 // import ProjectDetails from '../ProjectDetails/ProjectsDetails'
 
 const ShowProjects = (props) => {
-    const { projectName, projectDescription, gitrepo, liveSite, id, image } = props.work;
+    const { projectName, projectDescription, gitrepo, liveSite, image } = props.work;
     console.log(props.work);
     // const history = useHistory();
     // const handleSelectProject = id => {
