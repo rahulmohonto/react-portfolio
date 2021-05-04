@@ -1,21 +1,21 @@
 [{
     "id": 1,
     "projectName": "Food Mart",
-    "projectDescription": "",
+    "projectDescription": "Website is about online food and grocery item ordering sytem. Developmet is done with React, Javscript, NodeJS and design is done solely by me. Check out more via the below buttons",
     "gitrepo": "https://github.com/rahulmohonto/FullStack-FoodMart-Website",
     "liveSite": "https://xenodochial-murdock-6a5d3f.netlify.app",
     "image": "https://i.ibb.co/VTGh6wd/foodMart.jpg"
   }, {
     "id": 2,
     "projectName": "Bus Service",
-    "projectDescription": "Gowen",
+    "projectDescription": "Bus company service website offers to show services of respective comapny and place services on specific date, access to users is limited based on email filter they will log in. CHeckout more in live site",
     "gitrepo": "https://github.com/rahulmohonto/Bus-Company-Service-Website",
     "liveSite": "https://bus-client-assignment.web.app",
     "image": "https://i.ibb.co/jrRrX8G/bus-rent-icon.png"
   }, {
     "id": 3,
     "projectName": "Team Selection ",
-    "projectDescription": "McCambrois",
+    "projectDescription": "English Premier League desciption. Api is taken from sportsdb. For a specific team ,team details varies. Developed with JavaScript and React.  ",
     "gitrepo": "https://github.com/rahulmohonto/sports-team-details",
     "liveSite": "https://peaceful-jepsen-1fbb92.netlify.app",
     "image":"https://i.ibb.co/g7NnZ1k/english-league.jpg"
@@ -23,14 +23,14 @@
   {
     "id": 4,
     "projectName": "Plane Ticket",
-    "projectDescription": "Gotts",
+    "projectDescription": "Functionality developed with pure JavaScript and design related issues is solved with illustrator image, online image editor, HTML and CSS. Site Shows how  a plane ticket booking system can be via online.",
     "gitrepo": "https://github.com/rahulmohonto/Plane-Ticket-Assignment",
     "liveSite":"https://rahulmohonto.github.io/Plane-Ticket-Assignment/plane-ticket.html",
     "image": "https://i.ibb.co/6R8XH07/plane.jpg"
   }, {
     "id": 5,
     "projectName": "Smart Tour",
-    "projectDescription": "Gotts",
+    "projectDescription": "Smart Tour website is about selecting various kinds of travelling system. Google Map api is used and destination for specific place shows routes on website map. Developed with React JS, JavaScript, HTML, and CSS etc",
     "gitrepo": "https://github.com/rahulmohonto/Smart-Tour-Option",
     "liveSite":"",
     "image": "https://i.ibb.co/g9CqfQv/tour.jpg"

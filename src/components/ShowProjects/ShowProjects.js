@@ -26,7 +26,7 @@ const ShowProjects = (props) => {
 
                         <Card.Text className="text-dark">
                             {projectDescription}
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aut odit iusto excepturi quam iure officiis assumenda nam quod nisi.
+
                         </Card.Text>
 
 
